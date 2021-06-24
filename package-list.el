@@ -24,6 +24,7 @@
    'treemacs-evil
    'typescript-mode
    'undo-tree
+   'vue-mode
    'web-mode
     ))
 

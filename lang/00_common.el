@@ -12,6 +12,7 @@
 		    ((eq mode-or-pattern major-mode) language))))))
 
 (util/def-hook 'prog-mode-hook
+	       (toggle-truncate-lines)
 	       (dtrt-indent-mode t)
 	       (if (lang/lsp/get-lang-id) (progn
 			(lsp-ui-mode)
